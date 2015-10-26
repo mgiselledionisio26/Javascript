@@ -1,0 +1,41 @@
+<!DOCTYPE>
+<html>
+<head>
+<title> Activity with Javascript </title>
+<link href ="activityjs.css" type="text/css" rel="stylesheet"/>
+<script src="postBlog.js" type="text/javascript"></script>
+</head>
+<form action="whole">
+<fieldset>
+<body>
+<div>
+	<div>
+		<label> Title </label>
+	</div>
+		<div>
+			<input type ="text" name="title" id="input_title" size ="70">
+		</div>
+	<div>
+		<label> Author </label>
+	</div>
+		<div>
+			Lastname:  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type ="text" id="input_lastname" size ="30" placeholder ="Ex: Dionisio"><br>
+			Firstname: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type ="text"  id="input_firstname" size ="30" placeholder ="Ex: Ma.Giselle"><br>
+			Middlename: &nbsp;<input type ="text" id="input_middlename" size ="30" placeholder ="Ex: Olvina">
+		</div>
+	<div>
+		<label> Content </label> <br>
+			<textarea id ="content" rows ="15" cols="70">
+			</textarea>
+		</div>
+		<input type="button" value="POST" onclick='postBlog()'/>
+</div>
+	<div class ='div2'>
+		<h2 id="post-title"></h2>
+		<h2 id="post-author"> </h2>
+		<h2 id ="post-content"> </h2>
+	</div>
+</body>
+<form>
+</fieldset>
+</html>

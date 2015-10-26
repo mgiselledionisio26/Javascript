@@ -1,0 +1,23 @@
+body
+{
+ margin-top: 80px;
+ background-image: url(image/bg1.3.jpg);
+}
+label
+{
+ font-family: Adobe Hebrew;
+ font-size: 20px;
+ color: #004080;
+}
+div
+{
+ margin-bottom: 20px;
+ text-align:center;
+ font-family: Adobe Hebrew;
+ font-size: 20px;
+ color: #004080;
+}
+.2
+{
+float : left;
+}
